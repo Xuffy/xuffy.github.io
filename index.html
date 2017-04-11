@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+  <title>Title</title>
+  <link rel="stylesheet" href="static/css/reset.css">
+  <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+<div id="index">
+  <ul class="card-box" v-bind:class="game.screenType">
+
+    <li class="card-item"
+        v-for="(item,index) in game.roleList"
+        @click="item.type&&startStep($event,item)"
+        v-bind:class="[item.type,game.step,{'no-gamer':!item.type}]"
+        v-bind:style="{left:(index % game.lineNum * game.cardSize) + (index % game.lineNum * 10) + 'px',
+        top:parseInt(index/game.lineNum) * game.cardSize + (parseInt(index/game.lineNum + 1) * 10) + 'px',
+        'z-index':99-index}">
+      <span v-text="item.name" class="role-name"></span>
+    </li>
+  </ul>
+
+</div>
+
+<script type="text/javascript" src="static/plugins/vue.js"></script>
+<script type="text/javascript" src="static/plugins/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="static/plugins/underscore-min.js"></script>
+<script type="text/javascript" src="static/plugins/web-storage-cache.min.js"></script>
+<script type="text/javascript" src="static/plugins/fastclick.js"></script>
+<script type="text/javascript" src="static/config/config.js"></script>
+<script type="text/javascript" src="static/js/main.js"></script>
+<script type="text/javascript" src="static/js/index.js"></script>
+</body>
+</html>
