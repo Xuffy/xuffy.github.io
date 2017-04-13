@@ -9,18 +9,46 @@
 </head>
 <body>
 <div id="index">
-  <ul class="card-box" v-bind:class="game.screenType">
 
-    <li class="card-item"
-        v-for="(item,index) in game.roleList"
-        @click="item.type&&startStep($event,item)"
-        v-bind:class="[item.type,game.step,{'no-gamer':!item.type}]"
-        v-bind:style="{left:(index % game.lineNum * game.cardSize) + (index % game.lineNum * 10) + 'px',
+  <span class="onw-hide" v-text="updatePage"></span>
+  <!--选牌阶段-->
+  <div id="select-card-box" class="onw-hide">
+    <img src="static/img/game-title_49999dc.png" class="game-title"/>
+    <ul class="select-card-box">
+      <li v-for="item in game.roleList" v-bind:class="[{'active':item.active}]"
+          @click="clickCard(this,item)">
+        <span class="name" v-text="item.name"></span>
+        <img :src="item.image"/>
+      </li>
+    </ul>
+    <div class="btn-start" v-text="playerNum ? playerNum + '人游戏' : '选择角色'" @click="playerNum && clickStartGame()"></div>
+  </div>
+
+  <!--游戏阶段-->
+  <!--<div id="card-box" class="">
+    <ul class="card-box" v-bind:class="game.screenType">
+      <li class="card-item"
+          v-for="(item,index) in game.roleList" track-by="$index"
+          @click="item.type && clickCard($event,item)"
+          v-bind:class="[game.step,{'no-gamer':!item.type,'active':item.active}]">
+        &lt;!&ndash;<span v-text="item.name" class="role-name"></span>&ndash;&gt;
+        <img :src="item.image">
+      </li>
+    </ul>
+  </div>-->
+  <div id="card-box" class="onw-hide">
+    <ul class="card-box" v-bind:class="game.screenType">
+      <li class="card-item"
+          v-for="(item,index) in game.roleList" track-by="$index"
+          @click="item.type && clickCard($event,item)"
+          v-bind:class="[item.type,game.step,{'no-gamer':!item.type,'active':item.active}]"
+          v-bind:style="{left:(index % game.lineNum * game.cardSize) + (index % game.lineNum * 10) + 'px',
         top:parseInt(index/game.lineNum) * game.cardSize + (parseInt(index/game.lineNum + 1) * 10) + 'px',
         'z-index':99-index}">
-      <span v-text="item.name" class="role-name"></span>
-    </li>
-  </ul>
+        <span v-text="item.name" class="role-name"></span>
+      </li>
+    </ul>
+  </div>
 
 </div>
 
