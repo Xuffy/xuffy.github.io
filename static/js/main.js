@@ -1,1 +1,0 @@
-"use strict";!function(){FastClick.attach(document.body),$.extend({device:{h:$(window).height(),w:$(window).width()},lsCache:new WebStorageCache({storage:"localStorage"}),seCache:new WebStorageCache({storage:"sessionStorage"})})}();

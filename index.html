@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
   <title>Title</title>
-  <link rel="stylesheet" href="static/css/reset.css">
-  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/reset_8fe9d8d.css">
+  <link rel="stylesheet" href="static/css/index_2f33cdc.css">
 </head>
 <body>
 <div id="index">
 
-  <span class="onw-hide" v-text="updatePage"></span>
+  <span class="onw-hide" v-text="viewRandom"></span>
   <!--选牌阶段-->
-  <div id="select-card-box" class="onw-hide">
-    <img src="static/img/game-title_49999dc.png" class="game-title"/>
+  <div id="select-card-box" v-if="game.step === 'game-select'">
+    <img src="static/img/game-title_45f58bc.png" class="game-title"/>
     <ul class="select-card-box">
       <li v-for="item in game.roleList" v-bind:class="[{'active':item.active}]"
           @click="clickCard(this,item)">
@@ -36,15 +36,15 @@
       </li>
     </ul>
   </div>-->
-  <div id="card-box" class="onw-hide">
+  <!--v-bind:style="{left:(index % game.lineNum * game.cardSize) + (index % game.lineNum * 10) + 'px',width:game.cardSize + 'px',height:game.cardSize + 'px',top:parseInt(index/game.lineNum) * game.cardSize + (parseInt(index/game.lineNum + 1) * 10) + 'px',
+  'z-index':99-index}"-->
+  <div id="card-box" v-if="game.step !== 'game-select'">
     <ul class="card-box" v-bind:class="game.screenType">
       <li class="card-item"
           v-for="(item,index) in game.roleList" track-by="$index"
           @click="item.type && clickCard($event,item)"
           v-bind:class="[item.type,game.step,{'no-gamer':!item.type,'active':item.active}]"
-          v-bind:style="{left:(index % game.lineNum * game.cardSize) + (index % game.lineNum * 10) + 'px',
-        top:parseInt(index/game.lineNum) * game.cardSize + (parseInt(index/game.lineNum + 1) * 10) + 'px',
-        'z-index':99-index}">
+          v-bind:style="[item.style]">
         <span v-text="item.name" class="role-name"></span>
       </li>
     </ul>
@@ -52,13 +52,12 @@
 
 </div>
 
-<script type="text/javascript" src="static/plugins/vue.js"></script>
-<script type="text/javascript" src="static/plugins/jquery-1.12.1.min.js"></script>
-<script type="text/javascript" src="static/plugins/underscore-min.js"></script>
-<script type="text/javascript" src="static/plugins/web-storage-cache.min.js"></script>
-<script type="text/javascript" src="static/plugins/fastclick.js"></script>
-<script type="text/javascript" src="static/config/config.js"></script>
-<script type="text/javascript" src="static/js/main.js"></script>
-<script type="text/javascript" src="static/js/index.js"></script>
+<script type="text/javascript" src="static/plugins/vue_a70283a.js"></script>
+<script type="text/javascript" src="static/plugins/jquery-1.12.1.min_5d7ac39.js"></script>
+<script type="text/javascript" src="static/plugins/underscore-min_c99e2b6.js"></script>
+<script type="text/javascript" src="static/plugins/web-storage-cache.min_8044953.js"></script>
+<script type="text/javascript" src="static/plugins/fastclick_a0fc6c2.js"></script>
+<script type="text/javascript" src="static/js/main_1525590.js"></script>
+<script type="text/javascript" src="static/js/index_1383f26.js"></script>
 </body>
 </html>
