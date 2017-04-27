@@ -3,47 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
-  <title>Title</title>
+  <title>一夜终极狼人</title>
   <link rel="stylesheet" href="static/css/reset_8fe9d8d.css">
-  <link rel="stylesheet" href="static/css/index_2f33cdc.css">
+  <link rel="stylesheet" href="static/css/index_7e89f0c.css">
 </head>
 <body>
 <div id="index">
 
   <span class="onw-hide" v-text="viewRandom"></span>
   <!--选牌阶段-->
-  <div id="select-card-box" v-if="game.step === 'game-select'">
-    <img src="static/img/game-title_45f58bc.png" class="game-title"/>
-    <ul class="select-card-box">
-      <li v-for="item in game.roleList" v-bind:class="[{'active':item.active}]"
-          @click="clickCard(this,item)">
-        <span class="name" v-text="item.name"></span>
-        <img :src="item.image"/>
+  <div id="select-card-box" v-if="game.step === 'game-select' || game.step === 'game-select-seat'">
+    <!--选角色-->
+    <div class="select-card-title">
+      <img src="static/img/game-title_45f58bc.png" class="game-title"/>
+      <ul class="select-card-box" v-bind:class="game.screenType">
+        <li v-for="item in game.roleList" v-bind:class="[{'active':item.active}]"
+            @click="clickSelectRole(item)">
+          <span class="name" v-text="item.name"></span>
+          <img :src="item.image"/>
+        </li>
+      </ul>
+    </div>
+
+    <!--选座位-->
+    <ul class="select-seat-box" v-bind:class="game.screenType">
+      <li v-for="(item,index) in game.seatList" v-bind:class="game.seatDirection[index]"
+          @click="clickConfirmSeat(item,index)">
+        <span class="num" v-bind:class="{'onw-hide':!item.num}" v-text="item.num"></span>
+        <img src="static/img/card-back_dd375fb.png">
       </li>
     </ul>
-    <div class="btn-start" v-text="playerNum ? playerNum + '人游戏' : '选择角色'" @click="playerNum && clickStartGame()"></div>
+
+    <div class="btn-start" v-text="game.step === 'game-select' ? (playerNum ? playerNum + '人游戏' : '选择角色') : '确认座位'"
+         @click="playerNum && clickConfirmRole()"></div>
   </div>
 
-  <!--游戏阶段-->
-  <!--<div id="card-box" class="">
+  <div id="card-box" v-if="game.step !== 'game-select' && game.step !== 'game-select-seat'">
     <ul class="card-box" v-bind:class="game.screenType">
       <li class="card-item"
-          v-for="(item,index) in game.roleList" track-by="$index"
-          @click="item.type && clickCard($event,item)"
-          v-bind:class="[game.step,{'no-gamer':!item.type,'active':item.active}]">
-        &lt;!&ndash;<span v-text="item.name" class="role-name"></span>&ndash;&gt;
-        <img :src="item.image">
-      </li>
-    </ul>
-  </div>-->
-  <!--v-bind:style="{left:(index % game.lineNum * game.cardSize) + (index % game.lineNum * 10) + 'px',width:game.cardSize + 'px',height:game.cardSize + 'px',top:parseInt(index/game.lineNum) * game.cardSize + (parseInt(index/game.lineNum + 1) * 10) + 'px',
-  'z-index':99-index}"-->
-  <div id="card-box" v-if="game.step !== 'game-select'">
-    <ul class="card-box" v-bind:class="game.screenType">
-      <li class="card-item"
-          v-for="(item,index) in game.roleList" track-by="$index"
-          @click="item.type && clickCard($event,item)"
-          v-bind:class="[item.type,game.step,{'no-gamer':!item.type,'active':item.active}]"
+          v-for="(item,index) in game.roleList" track-by="index"
+          @click="item.type && clickSeeRole($event)"
+          v-bind:class="[item.type,game.step,{'no-gamer':!item.type,'active':item.active},game.seatDirection[index]]"
           v-bind:style="[item.style]">
         <span v-text="item.name" class="role-name"></span>
       </li>
@@ -57,7 +57,7 @@
 <script type="text/javascript" src="static/plugins/underscore-min_c99e2b6.js"></script>
 <script type="text/javascript" src="static/plugins/web-storage-cache.min_8044953.js"></script>
 <script type="text/javascript" src="static/plugins/fastclick_a0fc6c2.js"></script>
-<script type="text/javascript" src="static/js/main_1525590.js"></script>
-<script type="text/javascript" src="static/js/index_1383f26.js"></script>
+<script type="text/javascript" src="static/js/main_67cc132.js"></script>
+<script type="text/javascript" src="static/js/index_a02c0a7.js"></script>
 </body>
 </html>
