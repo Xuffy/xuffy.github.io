@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
   <title>一夜终极狼人</title>
+  <link rel="icon" href="static/img/WEREWOLF_69c8e70.png" type="image/x-ico" />
   <link rel="stylesheet" href="static/css/reset_8fe9d8d.css">
-  <link rel="stylesheet" href="static/css/index_7e89f0c.css">
+  <link rel="stylesheet" href="static/css/index_fbc97d9.css">
 </head>
 <body>
 <div id="index">
@@ -30,7 +31,7 @@
       <li v-for="(item,index) in game.seatList" v-bind:class="game.seatDirection[index]"
           @click="clickConfirmSeat(item,index)">
         <span class="num" v-bind:class="{'onw-hide':!item.num}" v-text="item.num"></span>
-        <img src="static/img/card-back_dd375fb.png">
+        <img src="static/img/card-back_51c4b4c.png">
       </li>
     </ul>
 
@@ -42,10 +43,11 @@
     <ul class="card-box" v-bind:class="game.screenType">
       <li class="card-item"
           v-for="(item,index) in game.roleList" track-by="index"
-          @click="item.type && clickSeeRole($event)"
+          @click="item.type && clickSeeRole(item,index)"
           v-bind:class="[item.type,game.step,{'no-gamer':!item.type,'active':item.active},game.seatDirection[index]]"
           v-bind:style="[item.style]">
         <span v-text="item.name" class="role-name"></span>
+        <span v-text="item.sortBy" class="role-num"></span>
       </li>
     </ul>
   </div>
@@ -57,7 +59,7 @@
 <script type="text/javascript" src="static/plugins/underscore-min_c99e2b6.js"></script>
 <script type="text/javascript" src="static/plugins/web-storage-cache.min_8044953.js"></script>
 <script type="text/javascript" src="static/plugins/fastclick_a0fc6c2.js"></script>
-<script type="text/javascript" src="static/js/main_67cc132.js"></script>
-<script type="text/javascript" src="static/js/index_a02c0a7.js"></script>
+<script type="text/javascript" src="static/js/main_fc61cf3.js"></script>
+<script type="text/javascript" src="static/js/index_714715b.js"></script>
 </body>
 </html>
