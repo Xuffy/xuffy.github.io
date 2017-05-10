@@ -3,8 +3,8 @@ xuffy.github.io
 
 项目目录
 -----------------------------------
-【系统管理模版】[https://xuffy.github.io/labpooSystem](https://xuffy.github.io/labpooSystem)<br />
-![https://xuffy.github.io/labpooSystem.png](https://xuffy.github.io/labpooSystem)   
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+【系统管理模版】[https://xuffy.github.io/labpooSystem](https://xuffy.github.io/labpooSystem)<br /> 
+[![系统管理模版]](https://xuffy.github.io/labpooSystem)
+[系统管理模版]:https://xuffy.github.io/labpooSystem.png "系统管理模版"
 【一夜终极狼人游戏】[https://xuffy.github.io/oneNightWerewolf](https://xuffy.github.io/oneNightWerewolf)<br />
 [![xuffy.github.io/oneNightWerewolf.png]](https://xuffy.github.io/oneNightWerewolf)   
