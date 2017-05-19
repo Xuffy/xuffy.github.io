@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c557c6ef-ccd9-4a86-b6b2-46f247c0c322" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/images/login-back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/images/login-content-back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/images/login-content-back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/images/login-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/images/welcome-back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/laydate/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/layer/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/layer/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/layer/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/layer/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/layer/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/font/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/font/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/images/face/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xuffy.github.io.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/javascript/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/layui_modules/_ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/layui_modules/_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/layui_modules/_route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.role.info/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.role.info/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.role.info/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.role/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.user.info/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.user/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.user/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/backstage.user/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/login/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/login/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/modules/rights.management/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/layui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/laydate/laydate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/css/modules/layer/default/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/font/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/dest/layui.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/laydate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/layedit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/laytpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/lay/modules/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/layui/layui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/plugins/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/css/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/css/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/demo_fontclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/demo_symbol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/demo_unicode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/iconfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labpooSystem/styles/font/iconfont.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/css/backstage-role.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/css/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/css/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/demo_fontclass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/demo_symbol.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/demo_unicode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/iconfont.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/iconfont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/iconfont_3eb782a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/iconfont_6425b58.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/iconfont_a6b09aa.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/font/iconfont_be5a010.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/img/login-back_6541797.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/img/login-content-back_68b81eb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/img/login-content-back_70b7817.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/img/login-logo_315151b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/img/logo_7b2df23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/img/welcome-back_e4b0a54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/js/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/laydate/icon_50309b0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/laydate/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/layer/default/icon-ext_bb88d36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/layer/default/icon_fd998e9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/layer/default/loading-0_a72011c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/layer/default/loading-1_1140bc5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/css/modules/layer/default/loading-2_50c5e3e.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/font/iconfont_4c6ad1a.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/font/iconfont_cef892d.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/font/iconfont_e81d57d.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/font/iconfont_f09e627.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/0_a06a2e3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/10_6111172.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/11_199be3f.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/12_7621ac2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/13_8621f66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/14_c30514b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/15_485a200.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/16_3d4ee85.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/17_1e345b4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/18_f81ed31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/19_fa7da45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/1_913e2f3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/20_435dbb7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/21_21ed3c0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/22_7873504.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/23_84b3bd0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/24_9044159.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/25_55ff583.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/26_7e64a36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/27_4e10558.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/28_ed40b41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/29_4fb6439.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/2_aec972d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/30_0b7ff8f.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/31_dcc636d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/32_8d9e9cc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/33_2f9e453.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/34_f81a7f4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/35_cc8ff03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/36_645be9a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/37_4c9e106.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/38_15bd343.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/39_edfe69e.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/3_bf97be0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/40_c94db1a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/41_55565f0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/42_f24d53d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/43_599c45d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/44_b0f285b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/45_d177833.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/46_b72ecab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/47_8ede6bd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/48_2a4c693.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/49_21069e4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/4_4d2933c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/50_96664d7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/51_c6c1e6c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/52_ff4d93b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/53_bc06dab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/54_aff0519.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/55_d7bdca5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/56_8c6f0b4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/57_e37c817.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/58_89d2914.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/59_1cb4f69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/5_8ae6b6e.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/60_71712fa.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/61_4bde963.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/62_c0ed092.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/63_907b3e8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/64_959bacf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/65_a27ed98.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/66_02709c8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/67_ab1c7c7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/68_a1c8f21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/69_877ff95.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/6_9946d62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/70_b7f69e6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/71_55a4269.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/7_3880bad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/8_8bfcb8f.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/images/face/9_92bf712.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/dest/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/lib/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/modules/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/pages/backstage-role-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/pages/backstage-role.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/pages/backstage-user-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/pages/backstage-user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/labpooSystem/pages/rights-management.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labpooSystem/index.html" afterPath="$PROJECT_DIR$/labpooSystem/index.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xuffy.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xuffy.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="nodejs_interpreter_path" value="E:/Node/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="E:\Node\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
