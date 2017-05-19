@@ -1,5 +1,4 @@
-'use strict';
-console.log(1);
+
 layui.define(function (exports) {
   var _route = {
     params: {}, // 当前页面地址参数
