@@ -34,8 +34,12 @@ layui.define(['_config', 'element'], function (exports) {
   function ajaxCustom(params, config) {
     var progress_timer = progress('start');
 
-    config = config || {};
-    params.url = (config.base || _config.env.api) + params.url;
+    config = _.extend({
+      base: '', // 设置请求路径
+      isMock: _config.isMock // 是否开启模拟数据
+    }, config);
+
+    params.url = (config.base || (config.isMock ? '/' : _config.env.api)) + params.url;
 
     params.dataType = 'json';
     params.contentType = 'application/json';
@@ -48,14 +52,14 @@ layui.define(['_config', 'element'], function (exports) {
         progress('error', progress_timer);
 
         if (e.status !== 200) {
-          throw new Error('[_ajax.modules] api error state - ' + (e.status || '000') + ' ' + params.url);
+          throw new Error('[_ajax.modules] api error state - {0} {1}'.format(e.status || '000', params.url));
         }
       })
       .then(function (data) {
         progress('success', progress_timer);
 
         if (_.isEmpty(data)) {
-          throw new Error('[_ajax.modules] api no return value ' + params.url);
+          throw new Error('[_ajax.modules] api no return value {0}'.format(params.url));
         }
 
         return data.data || [];
