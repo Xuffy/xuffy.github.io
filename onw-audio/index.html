@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+  <title>一夜终极狼人</title>
+  <style type="text/css">
+    /*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    nav ul, li {
+      list-style: none;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    a {
+      margin: 0;
+      padding: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+    }
+
+    /* change colours to suit your needs */
+    ins {
+      background-color: #ff9;
+      color: #000;
+      text-decoration: none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+      background-color: #ff9;
+      color: #000;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    del {
+      text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+      border-bottom: 1px dotted;
+      cursor: help;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #cccccc;
+      margin: 1em 0;
+      padding: 0;
+    }
+
+    input, select {
+      vertical-align: middle;
+    }
+  </style>
+  <style type="text/css">
+    body {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url("img/background.jpg");
+      background-size: cover;
+      background-position: top center;
+    }
+
+    .box {
+      width: 100%;
+      margin-top: 20%;
+    }
+
+    .box li {
+      position: relative;
+      width: 22.5%;
+      margin-left: 2%;
+      float: left;
+      margin-bottom: 20px;
+      text-align: center;
+      box-sizing: border-box;
+      padding-bottom: 5px;
+    }
+
+    .box li.active {
+      border: solid 1px #fff;
+    }
+
+    .box li.active:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, .2);
+    }
+
+    .box li img {
+      width: 100%;
+    }
+
+    .box li span {
+      position: absolute;
+      color: #ffffff;
+      font-weight: bold;
+      bottom: 5px;
+      width: 100%;
+      text-align: center;
+      left: 0;
+    }
+
+    .btn-start {
+      position: absolute;
+      bottom: 20px;
+      width: 120px;
+      height: 40px;
+      line-height: 38px;
+      text-align: center;
+      border-radius: 30px;
+      font-weight: 700;
+      color: #fff;
+      left: 50%;
+      margin-left: -60px;
+      border: solid 1px #fff;
+      background-color: rgba(0, 0, 0, .5);
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .gaming {
+      text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      padding-top: 30%;
+    }
+
+    .gaming .content {
+      color: #ffff00;
+      font-size: 24px;
+      font-family: '黑体';
+      text-align: center;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0 15%;
+      line-height: 35px;
+    }
+
+    .all-video {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+    }
+
+  </style>
+  <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  <script type="text/javascript" src="js/fastclick.js"></script>
+</head>
+<body>
+<img src="img/game-title.png" style="width: 70%;margin-left: 15%;margin-top: 20px">
+
+<div class="select-box">
+  <ul class="box">
+    <li order="1" type="hsyl">
+      <img src="img/DOPPELGANGER.png">
+      <span>化身幽灵</span>
+    </li>
+    <li order="3" type="zy">
+      <img src="img/MINION.png">
+      <span>爪牙</span>
+    </li>
+    <li order="9" type="smz">
+      <img src="img/INSOMNIAC.png">
+      <span>失眠者</span>
+    </li>
+    <li order="8" type="jg">
+      <img src="img/DRUNK.png">
+      <span>酒鬼</span>
+    </li>
+    <li order="1" type="lier">
+      <img src="img/HUNTER.png">
+      <span>猎人</span>
+    </li>
+    <li order="4" type="syr">
+      <img src="img/MASON.png">
+      <span>守夜人</span>
+    </li>
+    <li order="6" type="qd">
+      <img src="img/ROBBER.png">
+      <span>强盗</span>
+    </li>
+    <li order="5" type="yyj">
+      <img src="img/SEER.png">
+      <span>预言家</span>
+    </li>
+    <li order="1" type="pj">
+      <img src="img/TANNER.png">
+      <span>皮匠</span>
+    </li>
+    <li order="7" type="ddg">
+      <img src="img/TROUBLEMAKER.png">
+      <span>捣蛋鬼</span>
+    </li>
+    <li order="1" type="cm">
+      <img src="img/VILLAGER.png">
+      <span>村民</span>
+    </li>
+    <li order="2" type="lr">
+      <img src="img/WEREWOLF.png">
+      <span>狼人</span>
+    </li>
+  </ul>
+
+  <p class="btn-start">游戏开始</p>
+</div>
+
+<div class="gaming hide">
+  <img src="" width="50%">
+  <p class="content">游戏开始，天黑请闭眼</p>
+</div>
+
+<div class="all-video"></div>
+<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+<script>
+  var game_data = []
+    , audio_data = []
+    , cur_num = 0
+    , url = 'http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=3&text=';
+
+
+  $('.box li').on('click', function () {
+    var el = $(this);
+    if (el.hasClass('active')) {
+      el.removeClass('active');
+    } else {
+      el.addClass('active');
+    }
+  });
+
+
+  $('.btn-start').on('click', function () {
+    var ac = $('.box .active');
+
+    game_data = [];
+
+    for (var i = 0; i < ac.length; i++) {
+      var e = ac.eq(i);
+      game_data.push({num: parseInt(e.attr('order')), type: e.attr('type'), img: e.find('img').attr('src')});
+    }
+    audio_data.push({str: '游戏开始，天黑请闭眼', type: 'video-start'});
+    $('.select-box').addClass('hide');
+    $('.gaming').removeClass('hide');
+    start(1);
+  });
+
+
+  function start(next) {
+    for (var i = 0; i < game_data.length; i++) {
+      var str = '';
+      if (game_data[i].num == next && game_data[i].type !== 'zy' && game_data[i].type !== 'lier' && game_data[i].type !== 'cm') {
+        switch (game_data[i].type) {
+          case 'hsyl':
+            str = '[化身幽灵，]化身幽灵请睁眼，[你可以查看另外一名玩家的身份牌并且你会成为这个角色]，化身幽灵，你可以查看另外一名玩家的身份牌并且你会成为这个角色';
+            break;
+          case 'smz':
+            str = '[失眠者，]失眠者请睁眼，[你可以再次查看自己的身份牌]，失眠者，你可以再次查看自己的身份牌';
+            break;
+          case 'jg':
+            str = '[酒鬼，]酒鬼请睁眼，[你必须将自己的身份与三张底牌交换一张，但是换了以后不能查看新的身份牌]，酒鬼，你必须将自己的身份与三张底牌交换一张，但是换了以后不能查看新的身份牌';
+            break;
+          case 'syr':
+            str = '[守夜人，]守夜人请睁眼，[请查看场上的守夜人，记住同伴]，守夜人，请查看场上的守夜人，记住同伴';
+            break;
+          case 'qd':
+            str = '[强盗，]强盗请睁眼，[你可以将自己的身份与另一名玩家的身份交换。交换以后可以查看自己新的身份]，强盗，你可以将自己的身份与另一名玩家的身份交换。交换以后可以查看自己新的身份';
+            break;
+          case 'yyj':
+            str = '[预言家，]预言家请睁眼，[你可以查看一名玩家身份牌，或者查看三张底牌中的任意两张]，预言家，你可以查看一名玩家身份牌，或者查看三张底牌中的任意两张';
+            break;
+          /* case 'pj':
+           str = '皮匠请睁眼，请观看另外一名玩家的身份牌并且你会成为这个角色，你有三秒钟时间';
+           break;*/
+          case 'ddg':
+            str = '[捣蛋鬼，]捣蛋鬼请睁眼，[你可以将除自己意外的两名玩家身份牌互换，不能查看他们的身份]，捣蛋鬼，你可以将除自己意外的两名玩家身份牌互换，不能查看他们的身份';
+            break;
+          case 'lr':
+            str = '[狼人，]狼人请睁眼，[请查看场上的狼人并记住对方，如果没有其他狼人，你可以查看三张底牌中的任意一张底牌]，狼人，请查看场上的狼人并记住对方，如果没有其他狼人，你可以查看三张底牌中的任意一张底牌';
+            break;
+        }
+        audio_data.push({str: str, type: 'video-' + game_data[i].type, img: game_data[i].img});
+        break;
+      }
+    }
+    next++;
+    if (next < 13) {
+      start(next);
+    } else {
+      var avEl = $('.all-video');
+      avEl.empty();
+      for (var n = 0; n < audio_data.length; n++) {
+        avEl.append('<video id="' + audio_data[n].type + '" src="' + url + audio_data[n].str + '" controls="" name="media" preload webkit-playsinline playsinline>');
+      }
+
+      playAudio();
+
+      $('.gaming').on('click', function () {
+        playAudio();
+      });
+    }
+  }
+
+  function playAudio() {
+    var ave = $('.all-video')
+      , item = audio_data[cur_num]
+      , avEl = ave.find('#' + item.type)
+      , gEl = $('.gaming');
+    if (cur_num - 1 >= 0 && !ave.find('#' + audio_data[cur_num - 1].type)[0].ended) {
+      return false;
+    }
+
+    avEl.attr('src', url + item.str);
+    avEl[0].play();
+
+    var m = item.str.split('[')
+      , n = '';
+
+    for (var i = 0; i < m.length; i++) {
+      n += m[i].split(']')[0];
+    }
+
+    gEl.find('.content').text(n);
+
+
+    gEl.find('img').attr('src', item.img);
+    cur_num++;
+  }
+</script>
+</body>
+</html>
